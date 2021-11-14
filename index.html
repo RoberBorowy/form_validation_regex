@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>form validator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form">
+            <div class="form-control">
+                <label>User name</label>
+                <input type="text" placeholder="user name" class="username">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="text" placeholder="password" class="password">
+                <small class="small">Password must contain one uppercase letter, one lowercase letter, number and "!@#$%
+                    ^ &" </small>
+            </div>
+            <div class="form-control">
+                <label>Repeat password </label>
+                <input type="text" placeholder="repeat password" class="password2">
+                <small class="small2">Second password has to be the same as first</small>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" placeholder="email" class="email">
+                <small</small> 
+            </div> 
+            <button class="submit">Submit</button>
+            <button class="clear">Clear</button>
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
